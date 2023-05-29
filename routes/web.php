@@ -22,5 +22,5 @@ Route::post('/salvar_permissions_roles','App\Http\Controllers\adminController@sa
 Route::get('/login', 'App\Http\Controllers\adminController@login')->middleware('auth');
 // Route::get('/novo_usuario', 'App\Http\Controllers\adminController@novo_usuario')->middleware('auth');
 
-
+ 
 require __DIR__.'/auth.php';
